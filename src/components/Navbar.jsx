@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { ArrowRight } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,15 +24,15 @@ const Navbar = () => {
         
         {/* Desktop Links */}
         <div className="hidden md:flex flex-grow justify-center space-x-8">
-          <Link to="/" className="text-slate-300 hover:text-brand-primary transition-colors font-medium">Home 🏠</Link>
-          <Link to="/testimonials" className="text-slate-300 hover:text-brand-primary transition-colors font-medium">Testimonials 🌟</Link>
-          <Link to="/packages" className="text-slate-300 hover:text-brand-primary transition-colors font-medium">Packages 💎</Link>
+          <Link to="/" className="text-slate-300 hover:text-brand-primary transition-colors font-medium">Home</Link>
+          <Link to="/testimonials" className="text-slate-300 hover:text-brand-primary transition-colors font-medium">Testimonials</Link>
+          <Link to="/packages" className="text-slate-300 hover:text-brand-primary transition-colors font-medium">Packages</Link>
         </div>
 
         {/* CTA Button (Desktop) */}
         <div className="hidden md:flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <Link to="/packages" className="btn-primary text-sm px-6 py-2 inline-block">
-            Start Free Trial 🚀
+          <Link to="/packages" className="btn-primary text-sm px-6 py-2 inline-flex items-center gap-2">
+            Start Free Trial <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
 
@@ -61,29 +62,29 @@ const Navbar = () => {
               onClick={closeMenu} 
               className="block py-2 px-3 text-slate-300 hover:text-brand-primary hover:bg-slate-900/50 rounded-lg transition-colors font-medium"
             >
-              Home 🏠
+              Home
             </Link>
             <Link 
               to="/testimonials" 
               onClick={closeMenu} 
               className="block py-2 px-3 text-slate-300 hover:text-brand-primary hover:bg-slate-900/50 rounded-lg transition-colors font-medium"
             >
-              Testimonials 🌟
+              Testimonials
             </Link>
             <Link 
               to="/packages" 
               onClick={closeMenu} 
               className="block py-2 px-3 text-slate-300 hover:text-brand-primary hover:bg-slate-900/50 rounded-lg transition-colors font-medium"
             >
-              Packages 💎
+              Packages
             </Link>
             <div className="pt-2 border-t border-slate-900">
               <Link 
                 to="/packages" 
                 onClick={closeMenu} 
-                className="btn-primary text-sm px-6 py-2.5 w-full block text-center"
+                className="btn-primary text-sm px-6 py-2.5 w-full flex justify-center items-center gap-2"
               >
-                Start Free Trial 🚀
+                Start Free Trial <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
           </div>

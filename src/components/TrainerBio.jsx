@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { ShieldCheck, Leaf, Trophy, ChevronDown, ChevronUp } from 'lucide-react';
 
 const TrainerBio = () => {
   const [showStory, setShowStory] = useState(false);
@@ -33,35 +34,35 @@ const TrainerBio = () => {
             </div>
             
             <div className="mt-6 flex flex-wrap gap-3">
-              <span className="px-4 py-2 bg-slate-900 border border-slate-800 rounded-full text-xs font-bold tracking-wider text-brand-primary uppercase">🛡️ Level 4 Trainer</span>
-              <span className="px-4 py-2 bg-slate-900 border border-slate-800 rounded-full text-xs font-bold tracking-wider text-brand-accent uppercase">🥗 Nutritionist</span>
-              <span className="px-4 py-2 bg-slate-900 border border-slate-800 rounded-full text-xs font-bold tracking-wider text-brand-gold uppercase">🏆 Award-Winning</span>
+              <span className="px-4 py-2 bg-slate-900 border border-slate-800 rounded-full text-xs font-bold tracking-wider text-brand-primary uppercase flex items-center gap-1"><ShieldCheck className="w-3.5 h-3.5" /> Level 4 Trainer</span>
+              <span className="px-4 py-2 bg-slate-900 border border-slate-800 rounded-full text-xs font-bold tracking-wider text-brand-accent uppercase flex items-center gap-1"><Leaf className="w-3.5 h-3.5" /> Nutritionist</span>
+              <span className="px-4 py-2 bg-slate-900 border border-slate-800 rounded-full text-xs font-bold tracking-wider text-brand-gold uppercase flex items-center gap-1"><Trophy className="w-3.5 h-3.5" /> Award-Winning</span>
             </div>
           </div>
 
           {/* Bio Text */}
           <div className="w-full lg:w-7/12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 font-heading text-white">Meet Prapti Dutt 👑</h2>
-            <h3 className="text-xl md:text-2xl text-brand-primary mb-8 font-heading">Founder of KeepWell Mantras & CoreSculpt Mobile App 🚀</h3>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 font-heading text-white">Meet Prapti Dutt</h2>
+            <h3 className="text-xl md:text-2xl text-brand-primary mb-8 font-heading">Founder of KeepWell Mantras & CoreSculpt Mobile App</h3>
             
             <div className="space-y-6 text-slate-300 text-lg leading-relaxed">
               <p>
-                CoreSculpt isn't a generic app with a faceless content library. It's a personal transformational journey guided by me, every single day. 🧘‍♀️✨
+                CoreSculpt isn't a generic app with a faceless content library. It's a personal transformational journey guided by me, every single day.
               </p>
               <p>
                 As a Level 4 fitness trainer and nutritionist based in London, my philosophy is simple: fitness should build you up, not break you down. We focus on building a resilient core, functional strength, and a mindset that embraces challenges.
               </p>
               <p>
-                Whether you're holding your first plank or crushing advanced calisthenics, I am here live and on-demand to ensure you have the support, modifications, and motivation to become your best self. 👟💪
+                Whether you're holding your first plank or crushing advanced calisthenics, I am here live and on-demand to ensure you have the support, modifications, and motivation to become your best self.
               </p>
             </div>
             
             <div className="mt-10">
               <button 
                 onClick={() => setShowStory(!showStory)}
-                className="btn-outline cursor-pointer"
+                className="btn-outline cursor-pointer flex items-center gap-2"
               >
-                {showStory ? 'Hide Full Story 📖' : 'Read Full Story 📖'}
+                {showStory ? <><ChevronUp className="w-4 h-4" /> Hide Full Story</> : <><ChevronDown className="w-4 h-4" /> Read Full Story</>}
               </button>
             </div>
           </div>
@@ -72,7 +73,7 @@ const TrainerBio = () => {
           <div className="mt-16 bg-slate-900/30 border border-slate-800 rounded-[15px] p-8 md:p-12 backdrop-blur-md animate-fade-in">
             <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
               <div>
-                <h4 className="text-2xl font-bold mb-6 text-white font-heading">My Credentials & Background 📜</h4>
+                <h4 className="text-2xl font-bold mb-6 text-white font-heading">My Credentials & Background</h4>
                 <p className="text-slate-300 mb-6 leading-relaxed">
                   Introducing Prapti Dutt: A London-based, multi-award-winning fitness transformation coach whose approach blends science-backed training with deep inner healing. A certified Level 4 Strength & Conditioning trainer, Level 3 Pilates instructor, Level 3 Pre/Post-Pregnancy trainer, and Level 3 Nutritionist, Prapti’s expertise extends far beyond traditional coaching.
                 </p>
@@ -95,7 +96,7 @@ const TrainerBio = () => {
 
             {/* Awards Grid */}
             <div className="mt-12">
-              <h4 className="text-2xl font-bold mb-8 text-center text-white font-heading">Awards & Recognition 🏆✨</h4>
+              <h4 className="text-2xl font-bold mb-8 text-center text-white font-heading">Awards & Recognition</h4>
               <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6">
                 {awards.map((award, idx) => (
                   <div key={idx} className="bg-slate-950 border border-slate-800 p-4 rounded-[15px] text-center hover:border-brand-primary/40 transition-colors duration-300">

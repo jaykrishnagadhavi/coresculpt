@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { RefreshCcw, ArrowRight, TrendingUp } from 'lucide-react';
 
 const PhotoGallery = () => {
   const featuredImages = [
-    { src: '/images/trans-29.jpg', label: 'Unbelievable 3 Months Progress', tag: 'Transformation 📈' },
-    { src: '/images/trans-30.jpg', label: 'Post-Pregnancy Core Definition', tag: 'Core Strength 💪' },
-    { src: '/images/trans-31.jpg', label: 'Total Body Sculpt & Weight Loss', tag: 'Client Journey 🌟' },
-    { src: '/images/trans-32.jpg', label: 'Building Functional Strength', tag: 'Success Story ✨' },
+    { src: '/images/trans-29.jpg', label: 'Unbelievable 3 Months Progress', tag: 'Transformation' },
+    { src: '/images/trans-30.jpg', label: 'Post-Pregnancy Core Definition', tag: 'Core Strength' },
+    { src: '/images/trans-31.jpg', label: 'Total Body Sculpt & Weight Loss', tag: 'Client Journey' },
+    { src: '/images/trans-32.jpg', label: 'Building Functional Strength', tag: 'Success Story' },
   ];
 
   // Add the remaining 18 transformation images scraped from the site
@@ -22,14 +23,14 @@ const PhotoGallery = () => {
           <div className="max-w-3xl">
             <span className="text-brand-primary font-bold tracking-widest uppercase text-sm mb-4 block">Real Results</span>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold font-heading text-white mb-6 leading-tight">
-              Transformations that <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-primary">Inspire</span> 🔥
+              Transformations that <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-primary">Inspire</span>
             </h2>
             <p className="text-lg md:text-xl text-slate-400">
               Witness the incredible journeys of our community members. Real people, real dedication, and undeniable results.
             </p>
           </div>
           <Link to="/packages" className="btn-primary shrink-0 group relative overflow-hidden hidden md:inline-flex">
-            <span className="relative z-10">Start Your Journey 🚀</span>
+            <span className="relative z-10">Start Your Journey</span>
             <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
           </Link>
         </div>
@@ -58,7 +59,7 @@ const PhotoGallery = () => {
                 </span>
               </div>
               <h3 className="text-3xl md:text-4xl font-bold text-white font-heading mb-4 leading-tight">
-                Morning Core & HIIT Energy ⚡
+                Morning Core & HIIT Energy
               </h3>
               <p className="text-slate-300 max-w-md text-lg">
                 Experience the unmatched energy of our community workouts, designed to push your limits.
@@ -99,10 +100,10 @@ const PhotoGallery = () => {
 
         {/* Extensive Masonry Gallery of All Before/Afters */}
         <div className="mt-24">
-          <div className="text-center mb-12">
-            <h3 className="text-3xl md:text-4xl font-bold text-white font-heading mb-4">More Success Stories 🏆</h3>
-            <p className="text-slate-400 max-w-2xl mx-auto">
-              Our community proves that consistency is key. Check out dozens of real transformations achieved with CoreSculpt.
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 font-heading text-white">Real Results</h2>
+            <p className="text-lg text-slate-300 max-w-2xl mx-auto">
+              See the incredible transformations from our CoreSculpt community. Real people, real hard work, amazing results.
             </p>
           </div>
           
@@ -116,7 +117,7 @@ const PhotoGallery = () => {
                   loading="lazy"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4">
-                  <p className="text-brand-primary font-bold text-sm tracking-wider">Results 📈</p>
+                  <p className="text-brand-primary font-bold text-sm tracking-wider flex items-center gap-1">Results <TrendingUp className="w-3 h-3" /></p>
                 </div>
               </div>
             ))}
@@ -125,8 +126,8 @@ const PhotoGallery = () => {
 
         {/* Mobile Call to Action */}
         <div className="mt-16 text-center md:hidden">
-          <Link to="/packages" className="btn-primary w-full max-w-sm inline-block">
-            Start Your Journey 🚀
+          <Link to="/packages" className="btn-primary w-full max-w-sm inline-flex items-center justify-center gap-2">
+            Start Your Journey <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
       </div>

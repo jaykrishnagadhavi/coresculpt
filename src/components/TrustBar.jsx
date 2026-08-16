@@ -22,7 +22,7 @@ const TrustBar = () => {
               ))}
             </div>
             <div className="text-sm">
-              <p className="font-bold text-white group-hover:text-brand-primary transition-colors">Trusted by 1,500+ 👋</p>
+              <p className="font-bold text-white group-hover:text-brand-primary transition-colors">Trusted by 1,500+</p>
               <p className="text-slate-400">active rockstars</p>
             </div>
           </Link>
@@ -38,7 +38,7 @@ const TrustBar = () => {
               ))}
             </div>
             <div className="text-sm">
-              <p className="font-bold text-white group-hover:text-brand-primary transition-colors">80+ 5-Star Reviews 🌟</p>
+              <p className="font-bold text-white group-hover:text-brand-primary transition-colors">80+ 5-Star Reviews</p>
               <p className="text-slate-400">100% recommend rate</p>
             </div>
           </Link>

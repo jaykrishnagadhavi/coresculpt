@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Smartphone, MonitorPlay } from 'lucide-react';
 
 const Footer = () => {
   const appStoreUrl = "https://apps.apple.com/app/coresculpt/id6450630737";
@@ -16,7 +17,7 @@ const Footer = () => {
               </span>
             </Link>
             <p className="text-slate-400 mb-6 max-w-sm leading-relaxed">
-              Unleash the Iron Power of Your Core with Prapti Dutt. The ultimate fitness transformational app for your body and mind. 🤸‍♀️✨
+              Unleash the Iron Power of Your Core with Prapti Dutt. The ultimate fitness transformational app for your body and mind.
             </p>
             <div className="flex gap-4">
               <a 
@@ -41,32 +42,32 @@ const Footer = () => {
           </div>
           
           <div className="md:col-span-3">
-            <h4 className="text-white font-bold mb-4 uppercase tracking-wider text-sm">Links 🔗</h4>
+            <h4 className="text-white font-bold mb-4 uppercase tracking-wider text-sm">Links</h4>
             <ul className="space-y-3">
-              <li><Link to="/" className="text-slate-400 hover:text-brand-primary transition-colors">Home 🏠</Link></li>
-              <li><Link to="/testimonials" className="text-slate-400 hover:text-brand-primary transition-colors">Testimonials 🌟</Link></li>
-              <li><Link to="/packages" className="text-slate-400 hover:text-brand-primary transition-colors">Packages 💎</Link></li>
+              <li><Link to="/" className="text-slate-400 hover:text-brand-primary transition-colors">Home</Link></li>
+              <li><Link to="/testimonials" className="text-slate-400 hover:text-brand-primary transition-colors">Testimonials</Link></li>
+              <li><Link to="/packages" className="text-slate-400 hover:text-brand-primary transition-colors">Packages</Link></li>
             </ul>
           </div>
           
           <div className="md:col-span-4">
-            <h4 className="text-white font-bold mb-4 uppercase tracking-wider text-sm">Download App 📲</h4>
+            <h4 className="text-white font-bold mb-4 uppercase tracking-wider text-sm">Download App</h4>
             <div className="flex flex-col gap-3">
               <a 
                 href={appStoreUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-40 h-12 bg-slate-900 hover:bg-slate-800 rounded-md border border-slate-800 hover:border-brand-primary flex items-center justify-center text-sm font-bold text-slate-300 transition-colors"
+                className="w-48 h-12 bg-slate-900 hover:bg-slate-800 rounded-md border border-slate-800 hover:border-brand-primary flex items-center justify-center gap-2 text-sm font-bold text-slate-300 transition-colors"
               >
-                App Store 🍏
+                <Smartphone className="w-4 h-4" /> App Store
               </a>
               <a 
                 href={playStoreUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-40 h-12 bg-slate-900 hover:bg-slate-800 rounded-md border border-slate-800 hover:border-brand-primary flex items-center justify-center text-sm font-bold text-slate-300 transition-colors"
+                className="w-48 h-12 bg-slate-900 hover:bg-slate-800 rounded-md border border-slate-800 hover:border-brand-primary flex items-center justify-center gap-2 text-sm font-bold text-slate-300 transition-colors"
               >
-                Google Play 🤖
+                <MonitorPlay className="w-4 h-4" /> Google Play
               </a>
             </div>
           </div>
