@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-bg: #08080c;
+  --color-brand-card: #12121a;
+  --color-brand-primary: #00f2fe;
+  --color-brand-primary-glow: #00f2fe59;
+  --color-brand-accent: #a855f7;
+  --color-brand-gold: #dfba73;
+  --color-brand-gold-glow: #dfba7340;
+  --color-brand-border: #ffffff14;
+  
+  --font-heading: 'Outfit', system-ui, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  
+  --radius-leaf: 0 15px;
+
+  --animate-float: float 6s ease-in-out infinite;
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+}
+
+@layer base {
+  body {
+    background-color: var(--color-brand-bg);
+    color: white;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    line-height: 1.2;
+  }
+  p {
+    line-height: 1.6;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-brand-primary text-slate-900 font-bold uppercase tracking-wide rounded-leaf px-8 py-3 transition-all duration-300 ease-out shadow-[0_4px_20px_var(--color-brand-primary-glow)] hover:bg-white hover:-translate-y-0.5 hover:shadow-[0_6px_25px_#ffffff59];
+  }
+
+  .btn-outline {
+    @apply bg-transparent text-brand-primary font-bold uppercase tracking-wide rounded-leaf px-7 py-2.5 border-2 border-brand-primary transition-all duration-300 ease-out hover:bg-brand-primary hover:text-slate-900 hover:-translate-y-0.5 hover:shadow-[0_6px_20px_var(--color-brand-primary-glow)];
+  }
+
+  .btn-dark {
+    @apply bg-brand-card text-slate-50 font-bold uppercase tracking-wide rounded-leaf px-8 py-3 border border-brand-border transition-all duration-300 ease-out shadow-[0_4px_15px_#0000004d] hover:bg-brand-primary hover:text-slate-900 hover:-translate-y-0.5 hover:shadow-[0_6px_20px_var(--color-brand-primary-glow)];
+  }
+
+  .glass-panel {
+    @apply bg-[#12121ab3] backdrop-blur-md border border-brand-border shadow-[0_10px_40px_#0000004d] rounded-leaf;
+  }
+
+  .glass-panel-dark {
+    @apply bg-[#08080cd9] backdrop-blur-md border border-[#ffffff0d] shadow-[0_15px_50px_#00000066] rounded-leaf;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-brand-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: #ffffff26;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff40;
+}
