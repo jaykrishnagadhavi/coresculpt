@@ -1,25 +1,29 @@
 import React from 'react'
 import Hero from '../components/Hero'
-import TrustBar from '../components/TrustBar'
-import WhatItIs from '../components/WhatItIs'
-import TrainerBio from '../components/TrainerBio'
+import ProblemSection from '../components/ProblemSection'
 import PhotoGallery from '../components/PhotoGallery'
-import Testimonials from '../components/Testimonials'
+import NoGymSection from '../components/NoGymSection'
+import BellyFatSolutions from '../components/BellyFatSolutions'
 import HowItWorks from '../components/HowItWorks'
-import NutritionMindset from '../components/NutritionMindset'
+import WhatYouGet from '../components/WhatYouGet'
+import TrainerBio from '../components/TrainerBio'
+import FAQ from '../components/FAQ'
 import PricingTeaser from '../components/PricingTeaser'
+import TrustBar from '../components/TrustBar'
 
 function Home() {
   return (
     <>
       <Hero />
       <TrustBar />
-      <WhatItIs />
-      <TrainerBio />
+      <ProblemSection />
       <PhotoGallery />
-      <Testimonials />
+      <NoGymSection />
+      <BellyFatSolutions />
       <HowItWorks />
-      <NutritionMindset />
+      <WhatYouGet />
+      <TrainerBio />
+      <FAQ />
       <PricingTeaser />
     </>
   )

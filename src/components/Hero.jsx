@@ -18,49 +18,23 @@ const Hero = () => {
           {/* Text Content */}
           <div className="w-full md:w-1/2 text-center md:text-left">
             <h1 className="text-5xl md:text-6xl lg:text-[60.8px] font-bold text-white mb-6 font-heading leading-tight">
-              Unleash the <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-primary">Iron Power</span> of Your Core
+              Lose Stubborn <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-primary">Belly Fat</span> Without Giving Up Your Desi Lifestyle
             </h1>
             <p className="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl mx-auto md:mx-0 leading-relaxed">
-              Get fit with uniquely crafted sessions of Bodyweight training, Calisthenics, Pilates, Resistance Training, Cardio, and Yoga. All designed to Sculpt your Core like never before!
+              Simple home workouts, practical nutrition and sustainable habits designed for busy Indian women and men.
             </p>
             <div className="flex flex-col sm:flex-row items-center gap-4 justify-center md:justify-start">
               <a 
-                href={appStoreUrl} 
-                target="_blank" 
-                rel="noopener noreferrer" 
+                href="/packages" 
                 className="btn-primary w-full sm:w-auto text-center flex items-center justify-center gap-2"
               >
-                <Smartphone className="w-5 h-5" /> Download the App
+                Book Your 1:1 Consultation
               </a>
               <a 
-                href={playStoreUrl} 
-                target="_blank" 
-                rel="noopener noreferrer" 
+                href="#gallery" 
                 className="btn-outline w-full sm:w-auto text-center flex items-center justify-center gap-2"
               >
-                <MonitorPlay className="w-5 h-5" /> Get Google Play
-              </a>
-            </div>
-            
-            <div className="mt-8 flex flex-wrap items-center justify-center md:justify-start gap-4">
-              {/* Functional App Store Badges */}
-              <a 
-                href={appStoreUrl} 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 bg-slate-900 border border-slate-800 hover:border-brand-primary/50 px-4 py-2 rounded-lg transition-all duration-300"
-              >
-                <span className="text-white text-xs font-bold font-heading">Download on the</span>
-                <span className="text-brand-primary text-sm font-black flex items-center gap-1">App Store <Smartphone className="w-4 h-4" /></span>
-              </a>
-              <a 
-                href={playStoreUrl} 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 bg-slate-900 border border-slate-800 hover:border-brand-primary/50 px-4 py-2 rounded-lg transition-all duration-300"
-              >
-                <span className="text-white text-xs font-bold font-heading">Get it on</span>
-                <span className="text-brand-accent text-sm font-black flex items-center gap-1">Google Play <MonitorPlay className="w-4 h-4" /></span>
+                See Real Transformations ↓
               </a>
             </div>
           </div>
@@ -71,8 +45,8 @@ const Hero = () => {
               <div className="relative w-full aspect-[4/5] md:aspect-square rounded-[15px] overflow-hidden shadow-[0_20px_50px_#00000080] border border-brand-border bg-slate-900 group">
                 {/* Hero Image */}
                 <img 
-                  src="/images/Websitehomepage.jpg" 
-                  alt="Prapti Dutt CoreSculpt Coach" 
+                  src="/images/prapti-transformation.jpg" 
+                  alt="Prapti's Transformation Journey" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 
