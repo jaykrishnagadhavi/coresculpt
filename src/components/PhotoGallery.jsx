@@ -1,35 +1,43 @@
 import React from 'react';
-import { Quote } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { Quote, ArrowRight } from 'lucide-react';
 
 const PhotoGallery = () => {
   const testimonials = [
     {
-      src: '/images/trans-29.jpg',
-      name: 'Priya M.',
-      timePeriod: '3 Months',
-      result: 'Lost 8kg & 4 inches off waist',
-      testimonial: '"I finally found a routine that fits my busy schedule. The home workouts are challenging but doable, and the nutrition advice changed my life."'
+      src: '/images/depali.jpeg',
+      name: 'Depali',
+      timePeriod: 'Transformation',
+      result: 'Incredible Change',
+      testimonial: '"I never thought I could achieve this level of fitness. Thank you Prapti for the constant motivation!"'
     },
     {
-      src: '/images/trans-30.jpg',
-      name: 'Sneha R.',
-      timePeriod: '6 Months',
-      result: 'Restored core strength',
-      testimonial: '"After my baby, I thought I would never get my core strength back. CoreSculpt proved me wrong safely and effectively."'
+      src: '/images/simmi.jpeg',
+      name: 'Simmi',
+      timePeriod: 'Transformation',
+      result: 'Strength & Confidence',
+      testimonial: '"Finding a routine that works for me was hard until I joined. Highly recommended!"'
     },
     {
-      src: '/images/trans-31.jpg',
-      name: 'Anjali T.',
-      timePeriod: '4 Months',
-      result: 'Dropped 2 dress sizes',
-      testimonial: '"No more extreme diets for me. I eat what I love, train from my living room, and have never felt better or stronger."'
+      src: '/images/Ayesha.jpeg',
+      name: 'Ayesha',
+      timePeriod: 'Transformation',
+      result: 'Amazing Results',
+      testimonial: '"The journey with CoreSculpt has been life changing. The support and workouts are top notch."'
     },
     {
-      src: '/images/trans-32.jpg',
-      name: 'Rohan K.',
-      timePeriod: '5 Months',
-      result: 'Built functional strength',
-      testimonial: '"The combination of HIIT and strength training completely transformed my energy levels. Highly recommend Prapti\'s approach."'
+      src: '/images/suchi.jpeg',
+      name: 'Suchi',
+      timePeriod: 'Transformation',
+      result: 'Fitter & Healthier',
+      testimonial: '"The home workouts are challenging but doable, and the nutrition advice changed my life."'
+    },
+    {
+      src: '/images/surmi.jpeg',
+      name: 'Surmi',
+      timePeriod: 'Transformation',
+      result: 'Unbelievable Progress',
+      testimonial: '"This program pushed me beyond my limits and showed me what my body is capable of."'
     }
   ];
 
@@ -48,15 +56,15 @@ const PhotoGallery = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
           {testimonials.map((item, i) => (
             <div key={i} className="bg-slate-900 border border-slate-800 rounded-3xl overflow-hidden shadow-xl flex flex-col group">
               {/* Image Section */}
-              <div className="relative aspect-square sm:aspect-video overflow-hidden">
+              <div className="relative aspect-square sm:aspect-[4/5] overflow-hidden">
                 <img 
                   src={item.src} 
                   alt={`${item.name} Transformation`} 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                  className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700 ease-out"
                 />
                 <div className="absolute top-4 right-4 bg-brand-primary text-[#08080c] text-xs font-bold px-3 py-1.5 rounded-full">
                   {item.timePeriod}
@@ -76,6 +84,12 @@ const PhotoGallery = () => {
               </div>
             </div>
           ))}
+        </div>
+        
+        <div className="mt-12 text-center">
+          <Link to="/transformations" className="btn-primary inline-flex items-center gap-2 px-8 py-4 text-lg">
+            View All Transformations <ArrowRight className="w-5 h-5" />
+          </Link>
         </div>
       </div>
     </section>
