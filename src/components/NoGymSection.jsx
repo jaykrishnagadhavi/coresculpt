@@ -12,7 +12,7 @@ const NoGymSection = () => {
               <img 
                 src="/images/Product-Section-Img-1.jpg" 
                 alt="Home Workout" 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-top"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
               <div className="absolute bottom-6 left-6 right-6">
