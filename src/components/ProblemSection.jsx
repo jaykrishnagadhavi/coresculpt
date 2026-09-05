@@ -3,21 +3,31 @@ import { AlertCircle } from 'lucide-react';
 
 const ProblemSection = () => {
   const problems = [
-    "Stubborn lower belly",
-    "Post-pregnancy tummy",
-    "Feeling bloated or heavy",
-    "Clothes not fitting the way you want",
-    "Sitting all day with little movement",
-    "No time for long gym sessions",
-    "Constantly starting and restarting diets"
+    "Stubborn Belly Fat",
+    "Post Pregnancy belly",
+    "Diastasis Recti aka Abs separation",
+    "Stretch marks",
+    "Cellulites and loose skin",
+    "No time for the gym!",
+    "Want a lifestyle change",
+    "Don't like the gym",
+    "Need a structured workout",
+    "Need a coach and mentor",
+    "Need subconscious reset"
   ];
 
   return (
     <section className="py-24 bg-[#0e0919] relative overflow-hidden">
       <div className="max-w-4xl mx-auto px-6 relative z-10 text-center">
-        <h2 className="text-4xl md:text-5xl font-bold mb-12 font-heading text-white">
-          Is Your Belly Fat <span className="text-brand-primary">Holding You Back?</span>
+        <h2 className="text-4xl md:text-5xl font-bold mb-6 font-heading text-white">
+          More Than Just <span className="text-brand-primary">Weight Loss</span>
         </h2>
+        <p className="text-xl text-slate-300 mb-10 max-w-2xl mx-auto leading-relaxed">
+          CoreSculpt is a full transformational membership. We focus on real problems and set realistic expectations for sustainable, long-term health.
+        </p>
+        <h3 className="text-2xl font-bold mb-8 text-white">
+          CoreSculpt is for you if you have...
+        </h3>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-left max-w-3xl mx-auto mb-16">
           {problems.map((problem, idx) => (

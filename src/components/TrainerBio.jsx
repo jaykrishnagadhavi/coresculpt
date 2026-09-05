@@ -41,6 +41,15 @@ const TrainerBio = () => {
               <p>
                 Whether you're a busy mother looking to restore your core strength post-pregnancy, or someone ready to finally shed stubborn belly fat, I'm here to give you a clear, achievable path.
               </p>
+              <p>
+                With over 12 Qualifications in Fitness and over 15 awards and recognition, Prapti brings a wholesome plan with her expertise and experience with 3 abdominal surgeries herself.
+              </p>
+              <p>
+                Prapti is also a subconscious healer who has delivered results which once seemed impossible by just unlocking the subconscious blocks of her clients.
+              </p>
+              <p className="font-semibold text-brand-primary mt-8">
+                Book your session and see the magic
+              </p>
             </div>
           </div>
           

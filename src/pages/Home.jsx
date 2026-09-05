@@ -3,7 +3,7 @@ import Hero from '../components/Hero'
 import ProblemSection from '../components/ProblemSection'
 import PhotoGallery from '../components/PhotoGallery'
 import NoGymSection from '../components/NoGymSection'
-import BellyFatSolutions from '../components/BellyFatSolutions'
+
 import HowItWorks from '../components/HowItWorks'
 import WhatYouGet from '../components/WhatYouGet'
 import TrainerBio from '../components/TrainerBio'
@@ -19,7 +19,7 @@ function Home() {
       <ProblemSection />
       <PhotoGallery />
       <NoGymSection />
-      <BellyFatSolutions />
+
       <HowItWorks />
       <WhatYouGet />
       <TrainerBio />
