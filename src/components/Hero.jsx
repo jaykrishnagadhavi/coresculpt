@@ -21,7 +21,7 @@ const Hero = () => {
               Lose Stubborn <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-primary">Belly Fat</span> Without Giving Up Your Desi Lifestyle
             </h1>
             <p className="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl mx-auto md:mx-0 leading-relaxed">
-              Simple home workouts, practical nutrition and sustainable habits designed for busy Indian women and men.
+              Simple home workouts, practical nutrition and sustainable habits designed for busy women and men.
             </p>
             <div className="flex flex-col sm:flex-row items-center gap-4 justify-center md:justify-start">
               <a 

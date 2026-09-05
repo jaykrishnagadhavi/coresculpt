@@ -19,13 +19,13 @@ function Home() {
       <TrustBar />
       <ProblemSection />
       <PhotoGallery />
+      <FreeWorkouts />
       <NoGymSection />
 
       <HowItWorks />
       <WhatYouGet />
       <TrainerBio />
       <FAQ />
-      <FreeWorkouts />
       <PricingTeaser />
     </>
   )
