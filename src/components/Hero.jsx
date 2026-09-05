@@ -39,6 +39,22 @@ const Hero = () => {
                 See Real Transformations ↓
               </a>
             </div>
+
+            <div className="mt-8 flex justify-center md:justify-start">
+              <a 
+                href="https://keepwellmantras.com/coresculptapp" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="inline-flex items-center gap-2 text-slate-300 hover:text-white transition-colors group"
+              >
+                <div className="bg-brand-primary/20 p-2 rounded-full group-hover:bg-brand-primary/40 transition-colors">
+                  <Smartphone className="w-5 h-5 text-brand-primary" />
+                </div>
+                <span className="font-medium border-b border-dashed border-slate-500 group-hover:border-white pb-0.5">
+                  Read More about the CoreSculpt App
+                </span>
+              </a>
+            </div>
           </div>
 
           {/* Hero 3D Card Image */}
