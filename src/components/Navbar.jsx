@@ -31,9 +31,14 @@ const Navbar = () => {
 
         {/* CTA Button (Desktop) */}
         <div className="hidden md:flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <Link to="/packages" className="btn-primary text-sm px-6 py-2 inline-flex items-center gap-2">
+          <a 
+            href={`https://wa.me/447584236848?text=${encodeURIComponent("Hi Prapti! I'd like to start my free trial with CoreSculpt.")}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary text-sm px-6 py-2 inline-flex items-center gap-2"
+          >
             Start Free Trial <ArrowRight className="w-4 h-4" />
-          </Link>
+          </a>
         </div>
 
         {/* Mobile Hamburger Button */}
@@ -79,13 +84,15 @@ const Navbar = () => {
               Packages
             </Link>
             <div className="pt-2 border-t border-slate-900">
-              <Link 
-                to="/packages" 
+              <a 
+                href={`https://wa.me/447584236848?text=${encodeURIComponent("Hi Prapti! I'd like to start my free trial with CoreSculpt.")}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={closeMenu} 
                 className="btn-primary text-sm px-6 py-2.5 w-full flex justify-center items-center gap-2"
               >
                 Start Free Trial <ArrowRight className="w-4 h-4" />
-              </Link>
+              </a>
             </div>
           </div>
         )}

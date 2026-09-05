@@ -39,7 +39,14 @@ const NutritionMindset = () => {
               </li>
             </ul>
             
-            <button className="btn-primary">Explore Features</button>
+            <a 
+              href={`https://wa.me/447584236848?text=${encodeURIComponent("Hi Prapti! I'd like to learn more about the nutrition and mindset coaching features.")}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary inline-block"
+            >
+              Explore Features
+            </a>
           </div>
           
           {/* Image */}

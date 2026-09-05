@@ -25,7 +25,9 @@ const Hero = () => {
             </p>
             <div className="flex flex-col sm:flex-row items-center gap-4 justify-center md:justify-start">
               <a 
-                href="/packages" 
+                href={`https://wa.me/447584236848?text=${encodeURIComponent("Hi Prapti! I'm interested in booking a 1:1 consultation to start my transformation journey.")}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn-primary w-full sm:w-auto text-center flex items-center justify-center gap-2"
               >
                 Book Your 1:1 Consultation

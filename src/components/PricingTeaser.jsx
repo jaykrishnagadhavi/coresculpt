@@ -18,13 +18,15 @@ const PricingTeaser = () => {
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
           <a 
-            href="/packages" 
+            href={`https://wa.me/447584236848?text=${encodeURIComponent("Hi Prapti! I'm ready to start my transformation. I'd like to book a 1:1 consultation.")}`}
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn-primary w-full sm:w-auto text-center px-8 py-4 text-lg shadow-[0_0_20px_rgba(20,241,149,0.3)]"
           >
             BOOK YOUR 1:1 CONSULTATION
           </a>
           <a 
-            href="https://wa.me/447712345678" // Using a dummy number, they can update this
+            href={`https://wa.me/447584236848?text=${encodeURIComponent("Hi Prapti! I have a question about CoreSculpt and would love to chat.")}`}
             target="_blank" 
             rel="noopener noreferrer" 
             className="btn-outline w-full sm:w-auto text-center flex items-center justify-center gap-2 px-8 py-4 text-lg border-slate-700 hover:border-brand-primary/50 bg-slate-900/50"
