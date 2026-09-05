@@ -3,7 +3,7 @@ import { MessageCircle } from 'lucide-react';
 
 const PricingTeaser = () => {
   return (
-    <section className="py-24 relative overflow-hidden bg-[#08080c]">
+    <section className="py-24 relative overflow-hidden bg-[#0c0814]">
       <div className="absolute inset-0">
         <div className="absolute bottom-[-20%] right-[-10%] w-[50%] h-[50%] bg-brand-primary rounded-full mix-blend-screen filter blur-[150px] opacity-10"></div>
       </div>
@@ -21,7 +21,7 @@ const PricingTeaser = () => {
             href={`https://wa.me/447584236848?text=${encodeURIComponent("Hi Prapti! I'm ready to start my transformation. I'd like to book a 1:1 consultation.")}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-primary w-full sm:w-auto text-center px-8 py-4 text-lg shadow-[0_0_20px_rgba(20,241,149,0.3)]"
+            className="btn-primary w-full sm:w-auto text-center px-8 py-4 text-lg shadow-[0_0_20px_rgba(155,93,229,0.3)]"
           >
             BOOK YOUR 1:1 CONSULTATION
           </a>

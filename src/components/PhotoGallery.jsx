@@ -42,7 +42,7 @@ const PhotoGallery = () => {
   ];
 
   return (
-    <section className="py-24 bg-[#08080c] relative overflow-hidden" id="gallery">
+    <section className="py-24 bg-[#0c0814] relative overflow-hidden" id="gallery">
       {/* Premium Background Elements */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-[600px] bg-brand-primary/5 rounded-full blur-[150px] pointer-events-none"></div>
       
@@ -66,7 +66,7 @@ const PhotoGallery = () => {
                   alt={`${item.name} Transformation`} 
                   className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700 ease-out"
                 />
-                <div className="absolute top-4 right-4 bg-brand-primary text-[#08080c] text-xs font-bold px-3 py-1.5 rounded-full">
+                <div className="absolute top-4 right-4 bg-brand-primary text-white text-xs font-bold px-3 py-1.5 rounded-full">
                   {item.timePeriod}
                 </div>
               </div>

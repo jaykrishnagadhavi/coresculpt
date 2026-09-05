@@ -10,7 +10,7 @@ import TransformationsPage from './pages/TransformationsPage'
 function App() {
   return (
     <BrowserRouter>
-      <div className="min-h-screen flex flex-col overflow-x-hidden selection:bg-brand-primary selection:text-slate-900">
+      <div className="min-h-screen flex flex-col overflow-x-hidden selection:bg-brand-primary selection:text-white">
         <Navbar />
         <main className="flex-grow">
           <Routes>

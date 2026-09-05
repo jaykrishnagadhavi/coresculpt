@@ -81,7 +81,7 @@ function PackagesPage() {
         <div className="w-full">
           <div className="bg-slate-900/50 backdrop-blur-md border border-brand-accent/50 p-8 rounded-[15px] relative group hover:border-brand-primary/50 transition-colors duration-300 h-full flex flex-col justify-between">
             <div className="absolute -top-4 inset-x-0 flex justify-center">
-              <span className="bg-gradient-to-r from-brand-accent to-brand-primary text-slate-900 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+              <span className="bg-gradient-to-r from-brand-accent to-brand-primary text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
                 Most Popular
               </span>
             </div>

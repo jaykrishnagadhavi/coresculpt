@@ -14,7 +14,7 @@ const WhatYouGet = () => {
   ];
 
   return (
-    <section className="py-24 bg-[#08080c] relative">
+    <section className="py-24 bg-[#0c0814] relative">
       <div className="absolute inset-0 bg-[url('/images/flower-1.f240088aed0134ce8a053618df712aa8.svg')] bg-no-repeat bg-right-bottom opacity-5 mix-blend-screen pointer-events-none"></div>
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="bg-slate-900 border border-slate-800 rounded-3xl p-8 md:p-16 shadow-2xl overflow-hidden relative">

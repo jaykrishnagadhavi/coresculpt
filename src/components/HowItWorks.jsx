@@ -25,7 +25,7 @@ const HowItWorks = () => {
   ];
 
   return (
-    <section className="py-24 bg-[#0a0a0f]">
+    <section className="py-24 bg-[#0e0919]">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold font-heading text-white mb-6">
@@ -44,7 +44,7 @@ const HowItWorks = () => {
 
           {steps.map((step, idx) => (
             <div key={idx} className="relative z-10 text-center bg-slate-900/50 p-6 rounded-2xl border border-slate-800 lg:border-none lg:bg-transparent lg:p-0">
-              <div className="w-20 h-20 mx-auto bg-[#0a0a0f] border-2 border-brand-primary/50 rounded-full flex items-center justify-center text-2xl font-bold font-heading text-brand-primary mb-6 shadow-[0_0_20px_rgba(20,241,149,0.1)]">
+              <div className="w-20 h-20 mx-auto bg-[#0e0919] border-2 border-brand-primary/50 rounded-full flex items-center justify-center text-2xl font-bold font-heading text-brand-primary mb-6 shadow-[0_0_20px_rgba(155,93,229,0.15)]">
                 {step.num}
               </div>
               <h3 className="text-2xl font-bold text-white mb-3 font-heading">{step.title}</h3>

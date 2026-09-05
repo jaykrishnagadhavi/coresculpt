@@ -53,7 +53,7 @@ const Hero = () => {
                 />
                 
                 {/* Gradient Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-[#08080c] via-transparent to-transparent opacity-60"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0c0814] via-transparent to-transparent opacity-60"></div>
                 
                 <div className="absolute bottom-6 left-6 z-20">
                   <span className="bg-brand-primary/20 border border-brand-primary text-brand-primary text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full backdrop-blur-sm flex items-center gap-1">

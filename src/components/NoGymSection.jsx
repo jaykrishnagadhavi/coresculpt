@@ -3,7 +3,7 @@ import { Home, Clock, Dumbbell, CheckCircle2 } from 'lucide-react';
 
 const NoGymSection = () => {
   return (
-    <section className="py-24 bg-[#0a0a0f] relative overflow-hidden">
+    <section className="py-24 bg-[#0e0919] relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="flex flex-col lg:flex-row items-center gap-16">
           {/* Image Side */}

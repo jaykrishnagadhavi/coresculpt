@@ -3,7 +3,7 @@ import { ShieldCheck, Leaf } from 'lucide-react';
 
 const TrainerBio = () => {
   return (
-    <section className="py-24 bg-[#0a0a0f] relative overflow-hidden" id="about">
+    <section className="py-24 bg-[#0e0919] relative overflow-hidden" id="about">
       <div className="max-w-6xl mx-auto px-6 relative z-10">
         <div className="flex flex-col md:flex-row items-center gap-12 lg:gap-20">
           
@@ -14,7 +14,7 @@ const TrainerBio = () => {
                 alt="Prapti Dutt" 
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0f] via-transparent to-transparent opacity-40"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0e0919] via-transparent to-transparent opacity-40"></div>
             </div>
             
             <div className="mt-6 flex flex-wrap gap-3 justify-center md:justify-start">

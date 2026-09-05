@@ -69,7 +69,7 @@ const TransformationsPage = () => {
   ];
 
   return (
-    <div className="pt-24 min-h-screen bg-[#08080c] relative overflow-hidden">
+    <div className="pt-24 min-h-screen bg-[#0c0814] relative overflow-hidden">
       {/* Decorative Glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-[600px] bg-brand-primary/5 rounded-full blur-[150px] pointer-events-none"></div>
 
@@ -92,7 +92,7 @@ const TransformationsPage = () => {
                   alt={`${item.name} Transformation`} 
                   className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700 ease-out"
                 />
-                <div className="absolute top-4 right-4 bg-brand-primary text-[#08080c] text-xs font-bold px-3 py-1.5 rounded-full">
+                <div className="absolute top-4 right-4 bg-brand-primary text-white text-xs font-bold px-3 py-1.5 rounded-full">
                   {item.timePeriod}
                 </div>
               </div>

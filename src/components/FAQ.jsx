@@ -48,7 +48,7 @@ const FAQ = () => {
   };
 
   return (
-    <section className="py-24 bg-[#0a0a0f]">
+    <section className="py-24 bg-[#0e0919]">
       <div className="max-w-3xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold font-heading text-white mb-6">

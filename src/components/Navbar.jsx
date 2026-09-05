@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed w-full z-50 top-0 start-0 border-b border-brand-border bg-[#08080cd9] backdrop-blur-md">
+    <nav className="fixed w-full z-50 top-0 start-0 border-b border-brand-border bg-[#0c0814d9] backdrop-blur-md">
       <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between p-4 px-6">
         <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse" onClick={closeMenu}>
           <span className="self-center text-2xl font-bold whitespace-nowrap text-white tracking-wide">

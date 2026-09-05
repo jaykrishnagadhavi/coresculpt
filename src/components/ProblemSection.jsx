@@ -13,7 +13,7 @@ const ProblemSection = () => {
   ];
 
   return (
-    <section className="py-24 bg-[#0a0a0f] relative overflow-hidden">
+    <section className="py-24 bg-[#0e0919] relative overflow-hidden">
       <div className="max-w-4xl mx-auto px-6 relative z-10 text-center">
         <h2 className="text-4xl md:text-5xl font-bold mb-12 font-heading text-white">
           Is Your Belly Fat <span className="text-brand-primary">Holding You Back?</span>
