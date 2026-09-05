@@ -87,9 +87,9 @@ const PhotoGallery = () => {
         </div>
         
         <div className="mt-12 text-center">
-          <Link to="/transformations" className="btn-primary inline-flex items-center gap-2 px-8 py-4 text-lg">
+          <a href="https://keepwellmantras.com/client-transformation" target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center gap-2 px-8 py-4 text-lg">
             View All Transformations <ArrowRight className="w-5 h-5" />
-          </Link>
+          </a>
         </div>
       </div>
     </section>
