@@ -13,7 +13,10 @@ const ProblemSection = () => {
     "Don't like the gym",
     "Need a structured workout",
     "Need a coach and mentor",
-    "Need subconscious reset"
+    "Need subconscious reset",
+    "Discipline with Live Classes",
+    "A desi nutrition plan with desi food",
+    "Variety in your workouts - no 2 workouts are ever the same!"
   ];
 
   return (

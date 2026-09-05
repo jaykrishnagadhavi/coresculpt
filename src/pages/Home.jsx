@@ -10,6 +10,7 @@ import TrainerBio from '../components/TrainerBio'
 import FAQ from '../components/FAQ'
 import PricingTeaser from '../components/PricingTeaser'
 import TrustBar from '../components/TrustBar'
+import FreeWorkouts from '../components/FreeWorkouts'
 
 function Home() {
   return (
@@ -24,6 +25,7 @@ function Home() {
       <WhatYouGet />
       <TrainerBio />
       <FAQ />
+      <FreeWorkouts />
       <PricingTeaser />
     </>
   )
