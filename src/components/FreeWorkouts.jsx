@@ -31,7 +31,7 @@ const FreeWorkouts = () => {
           </a>
           
           <a 
-            href="https://apps.apple.com/us/app/coresculpt/id6450386191"
+            href="https://apps.apple.com/app/coresculpt/id6450630737"
             target="_blank" 
             rel="noopener noreferrer" 
             className="btn-outline w-full sm:w-auto text-center flex items-center justify-center gap-3 px-8 py-4 text-lg border-slate-700 hover:border-brand-primary/50 bg-slate-900/50"

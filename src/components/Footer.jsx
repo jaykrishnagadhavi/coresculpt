@@ -4,7 +4,7 @@ import { Smartphone, MonitorPlay } from 'lucide-react';
 
 const Footer = () => {
   const appStoreUrl = "https://apps.apple.com/app/coresculpt/id6450630737";
-  const playStoreUrl = "https://play.google.com/store/apps/details?id=com.keepwellmantras.coresculpt";
+  const playStoreUrl = "https://play.google.com/store/apps/details?id=com.keepwellmantras";
 
   return (
     <footer className="bg-[#080510] border-t border-brand-border pt-16 pb-8">

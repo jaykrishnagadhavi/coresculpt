@@ -183,10 +183,12 @@ export const testimonials = [
 export const packagesData = {
   content: [
     "Our pricing reflects our unwavering commitment to delivering exceptional quality, ensuring you get the best value for your investment.",
-    "Basic package £90 per month",
-    "Rockstar package £112 per month",
-    "Basic package £247 per quarter",
-    "Rockstar package £315 per quarter",
+    "Basic package £60 per month",
+    "Standard package £90 per month",
+    "Premium package £120 per month",
+    "Basic package £165 per quarter",
+    "Standard package £250 per quarter",
+    "Premium package £320 per quarter",
     "CoreSculpt App brings you a plethora of options with Circuit training, Bodyweight strength, Yoga, Pilates, Callisthenics, Resistance & strength training along with nutrition and habit coaching services into one comprehensive platform. Not easy to find such a synergy and an unmatched fusion that transforms your fitness journey into an inspiring adventure!\n\nCoreSculpt introduces you to the first ever library of over 500 follow-along videos by a single trainer! Say goodbye to mere instructions, sample videos and boring schedules, rather watch me, your fitness buddy, sweating it out alongside you, providing you unparalleled motivation in every class.\n\nRewards points, consistency badges, activity streak calendar, client inspirations, healthy eating blogs, my tips and tricks, and that community support – there is lots of fun features to let you empower your fitness journey like never before! CoreSculpt isn’t just another Fitness App, it is a culmination of years of dedication, passion, expertise, experience & knowledge and is an ever-evolving network of women.\n\nIn addition to the monthly subscription packages, you can add on the following features:",
     "Introducing our revolutionary fitness platform that brings the gym experience right to your fingertips - the Ultimate Workout Video Library",
     "Are you tired of the same old workout routines? Do you crave diversity and excitement in your fitness journey? Look no further. With our subscription, you'll gain access to a treasure trove of over 500 workout videos that span a wide spectrum of fitness categories.",

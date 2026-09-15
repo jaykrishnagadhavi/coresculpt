@@ -3,7 +3,7 @@ import { Smartphone, MonitorPlay, MapPin } from 'lucide-react';
 
 const Hero = () => {
   const appStoreUrl = "https://apps.apple.com/app/coresculpt/id6450630737";
-  const playStoreUrl = "https://play.google.com/store/apps/details?id=com.keepwellmantras.coresculpt";
+  const playStoreUrl = "https://play.google.com/store/apps/details?id=com.keepwellmantras";
 
   return (
     <section className="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden">
